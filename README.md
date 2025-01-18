@@ -75,5 +75,5 @@ Enjoy the game, and don’t forget to ⭐ the repo if you like it! 🥳✨
 
 --- 
 
-This version adds more personality, better formatting, and encourages interaction. Let me know if you'd like further refinements or custos
+This version adds more personality, better formatting, and encourages interaction. Let me know if you'd like further refinements or custo
 
