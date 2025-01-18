@@ -66,14 +66,13 @@ This project is open-source and available under the **MIT License**. Feel free t
 ## 📬 Let’s Connect  
 
 Have feedback, ideas, or just want to chat? Reach out to me:  
-📧 Email: **[your.email@example.com](mailto:onlykelvin06@gmail.com)**  
-💼 LinkedIn: **[Your LinkedIn Profile]()**  
-🐦 Twitter: **[@yourhandle](#)**  
-
+📧 Email: **[onlykelvin06@gmail.com ](mailto:onlykelvin06@gmail.com)**  
+💼 LinkedIn: **[Kelvin Yeboah]()**  
+ 
 ---
 
 Enjoy the game, and don’t forget to ⭐ the repo if you like it! 🥳✨  
 
 --- 
 
-This version adds more personality, better formatting, and encourages interaction. Let me know if you'd like further refinements or customizations!
+This version adds more personality, better formatting, and encourages interaction. Let me know if you'd like further refinements or customizations
