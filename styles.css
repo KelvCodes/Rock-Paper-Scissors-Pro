@@ -37,7 +37,7 @@ body{
 /*Score section styles*/
 .score {
     font-size: 1.2rem; /*Increase font size*/
-    font-weight: bold;
+    font-weight: bold; /* Make the score bold*/
     color: #333;
 }
 
