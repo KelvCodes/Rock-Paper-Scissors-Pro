@@ -15,7 +15,7 @@ body{
 
     display: flex;
     justify-content: center;  /* Center content horizontally */
-    align-items: center;
+    align-items: center; /* Center content vertically */
 
     font-family: "Poppins", sans-serif;
 }
