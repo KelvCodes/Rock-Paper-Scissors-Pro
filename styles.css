@@ -17,7 +17,7 @@ body{
     justify-content: center;  /* Center content horizontally */
     align-items: center; /* Center content vertically */
 
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;  /* Use Poppins font */
 }
 .score-board {
     display: flex;
