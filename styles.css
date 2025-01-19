@@ -17,6 +17,29 @@ body{
 
     font-family: "Poppins", sans-serif;
 }
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.score h3 {
+    margin: 0;
+    text-align: center;
+}
+
 
 .game-container{
     width: 60%;
