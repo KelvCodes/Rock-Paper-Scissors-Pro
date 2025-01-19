@@ -25,7 +25,7 @@ body{
 .score-board {
     display: flex;
     justify-content: center;  /* Center the score sections */
-    align-items: center; /* Add space between score sections */
+    align-items: center; 
     gap: 2rem;
     margin: 1rem 0;/* Add margin for spacing */
     padding: 0.5rem;
