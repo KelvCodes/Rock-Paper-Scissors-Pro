@@ -38,7 +38,7 @@ body{
 .score {
     font-size: 1.2rem; /*Increase font size*/
     font-weight: bold; /* Make the score bold*/
-    color: #333;
+    color: #333; /*Dark color for text*/
 }
 
 .score h3 {
