@@ -42,7 +42,7 @@ body{
 }
 
 .score h3 {
-    margin: 0;
+    margin: 0; /* Remove margin for cleaner look */
     text-align: center;
 }
 
