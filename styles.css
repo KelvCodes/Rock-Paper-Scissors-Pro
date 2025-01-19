@@ -30,7 +30,7 @@ body{
     margin: 1rem 0;/* Add margin for spacing */
     padding: 0.5rem;
     background-color: #ffffff; /*White background*/
-    border-radius: 8px;
+    border-radius: 8px;  /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
