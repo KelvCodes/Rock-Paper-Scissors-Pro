@@ -24,7 +24,7 @@ body{
 /* Scoreboard Container */
 .score-board {
     display: flex;
-    justify-content: center;
+    justify-content: center;  /* Center the score sections */
     align-items: center;
     gap: 2rem;
     margin: 1rem 0;
