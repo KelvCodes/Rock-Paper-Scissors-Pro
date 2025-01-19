@@ -26,7 +26,7 @@ body{
     display: flex;
     justify-content: center;  /* Center the score sections */
     align-items: center; 
-    gap: 2rem;
+    gap: 2rem;/* Add space between score sections */
     margin: 1rem 0;/* Add margin for spacing */
     padding: 0.5rem;
     background-color: #ffffff;
