@@ -7,62 +7,72 @@ const cImg = cChoice.previousElementSibling;
 const weapons = document.querySelectorAll(".img");
 const result = document.querySelector(".result");
 
+const playerScoreDisplay = document.getElementById("player-score");
+const computerScoreDisplay = document.getElementById("computer-score");
+const tieScoreDisplay = document.getElementById("tie-score");
+
+let playerScore = 0;
+let computerScore = 0;
+let tieScore = 0;
+
 function randomNumber() {
   return Math.floor(Math.random() * 3);
 }
 
-// console.log(randomNumber())
-
 function computer() {
-  const choices = ["paper", "rock", "scissors"];
+  const choices = ["rock", "paper", "scissors"];
   const ele = choices[randomNumber()];
   cImg.src = `images/${ele}.png`;
   cImg.id = ele;
   cChoice.innerHTML = ele;
+  return ele;
 }
 
 weapons.forEach((weapon) => {
   weapon.addEventListener("click", () => {
-    const item = weapon.childNodes[1];
-    pImg.src = item.src;
-    pImg.id = weapon.id;
-    pChoice.innerHTML = weapon.id;
+    const playerSelection = weapon.id;
+    pImg.src = `images/${playerSelection}.png`;
+    pImg.id = playerSelection;
+    pChoice.innerHTML = playerSelection;
 
-    computer();
-    check(cImg.id, pImg.id);
+    const computerSelection = computer();
+    checkResult(computerSelection, playerSelection);
   });
 });
 
-function check(a, b) {
-  let msg;
-  if (a == b) {
-    msg = "DRAW";
-  }
-  if (a == "rock" && b == "paper") {
-    msg = "You Win!";
-  } else if (a == "rock" && b == "scissors") {
-    msg = "You Lose!";
-  }
+function checkResult(computerSelection, playerSelection) {
+  let message;
 
-  if (a == "paper" && b == "scissors") {
-    msg = "You Win!";
-  } else if (a == "paper" && b == "rock") {
-    msg = "You Lose!";
-  }
-
-  if (a == "scissors" && b == "rock") {
-    msg = "You Win!";
-  } else if (a == "scissors" && b == "paper") {
-    msg = "You Lose!";
+  if (computerSelection === playerSelection) {
+    message = "It's a Draw!";
+    tieScore++; // Increment tie score
+  } else if (
+    (computerSelection === "rock" && playerSelection === "scissors") ||
+    (computerSelection === "scissors" && playerSelection === "paper") ||
+    (computerSelection === "paper" && playerSelection === "rock")
+  ) {
+    message = "You Lose!";
+    computerScore++;
+  } else {
+    message = "You Win!";
+    playerScore++;
   }
 
-  result.innerHTML = msg;
-  document.body.style.pointerEvents = "none";
+  updateScore();
+  displayResult(message);
+}
 
-  setInterval(() => {
-    result.innerHTML += ".";
-  }, 700);
+function updateScore() {
+  playerScoreDisplay.textContent = playerScore;
+  computerScoreDisplay.textContent = computerScore;
+  tieScoreDisplay.textContent = tieScore; // Update tie score
+}
+
+function displayResult(message) {
+  result.textContent = message;
+
+  // Brief delay for the next round
   setTimeout(() => {
-    location.reload();
-  }, 2200);
+    result.textContent = "Make your next move!";
+  }, 1500);
 }
