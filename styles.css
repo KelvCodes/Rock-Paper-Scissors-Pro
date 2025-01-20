@@ -53,7 +53,7 @@ body{
 
 /* Title Styling */
 .title{
-    background: white;
+    background: white; /* White background for the title */
     margin: 2rem 0;
     padding: .5rem 0;
 
