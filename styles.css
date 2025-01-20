@@ -76,6 +76,7 @@ body{
     height: 250px;  /* Set the height of the game area */
 }
 
+/* Styling for the images inside the game */
 .game img{
     width: 130px;
     height: 120px;
