@@ -71,7 +71,7 @@ body{
 
     border: 5px solid white;/* White border for the game area */
     padding: 3rem 2rem; /* Padding inside the game area */
-    text-align: center;
+    text-align: center; /* Center text inside the game area */
 
     height: 250px;
 }
