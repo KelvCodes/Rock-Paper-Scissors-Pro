@@ -65,7 +65,7 @@ body{
 /* Game Area Styling */
 .game{
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center the game elements horizontally */
     align-items: center;
     gap: 2rem;
 
