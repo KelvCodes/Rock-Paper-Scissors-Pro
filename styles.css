@@ -46,7 +46,7 @@ body{
     text-align: center; /* Center the text within the score section */
 }
 
-
+/* Game Container */
 .game-container{
     width: 60%;
 }
