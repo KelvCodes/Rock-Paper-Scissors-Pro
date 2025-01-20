@@ -70,7 +70,7 @@ body{
     gap: 2rem; /* Add space between the game elements */
 
     border: 5px solid white;/* White border for the game area */
-    padding: 3rem 2rem;
+    padding: 3rem 2rem; /* Padding inside the game area */
     text-align: center;
 
     height: 250px;
