@@ -116,6 +116,7 @@ h1{
     user-select: none;
 }
 
+/* Hover Effect for Image */
 .img:hover{
     background: black;
 }
