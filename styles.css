@@ -48,7 +48,7 @@ body{
 
 /* Game Container */
 .game-container{
-    width: 60%;
+    width: 60%; /* Set the width of the game container */
 }
 
 .title{
