@@ -59,7 +59,7 @@ body{
 
     text-align: center; /* Center-align the title */
     letter-spacing: 2px; /* Space out the letters */
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Increase the font size */
 }
 
 .game{
