@@ -147,6 +147,7 @@ h1{
     }
 }
 
+/* For screens smaller than 700px */
 @media screen and (max-width: 700px){
     .game-conatiner{
         width: 90%;
