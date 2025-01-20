@@ -141,6 +141,7 @@ h1{
 
 /* Responsiveness  */
 
+/* For screens smaller than 1000px */
 @media screen and (max-width: 1000px){
     .game-container{
         width: 80%;
