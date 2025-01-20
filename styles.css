@@ -54,7 +54,7 @@ body{
 /* Title Styling */
 .title{
     background: white; /* White background for the title */
-    margin: 2rem 0;
+    margin: 2rem 0;/* Margin to add space around the title */
     padding: .5rem 0;
 
     text-align: center;
