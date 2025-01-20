@@ -51,6 +51,7 @@ body{
     width: 60%; /* Set the width of the game container */
 }
 
+/* Title Styling */
 .title{
     background: white;
     margin: 2rem 0;
