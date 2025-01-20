@@ -67,7 +67,7 @@ body{
     display: flex;
     justify-content: center; /* Center the game elements horizontally */
     align-items: center; /* Center the game elements vertically */
-    gap: 2rem;
+    gap: 2rem; /* Add space between the game elements */
 
     border: 5px solid white;
     padding: 3rem 2rem;
