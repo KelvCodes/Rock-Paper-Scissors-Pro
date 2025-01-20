@@ -73,7 +73,7 @@ body{
     padding: 3rem 2rem; /* Padding inside the game area */
     text-align: center; /* Center text inside the game area */
 
-    height: 250px;
+    height: 250px;  /* Set the height of the game area */
 }
 
 .game img{
