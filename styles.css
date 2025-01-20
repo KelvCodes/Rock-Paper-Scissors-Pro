@@ -158,6 +158,7 @@ h1{
     }
 }
 
+/* For screens smaller than 550px */
 @media screen and (max-width: 550px){
     .game-container{
         width: 95%;
