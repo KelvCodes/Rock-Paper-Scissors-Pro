@@ -53,7 +53,21 @@ Want to add new features or improve the game? We’d love your help! 💡
    ```  
 5. Open a pull request.  
 
-Your contributions are always welcome! and feel free to reach out to me on:<div>
+Your contributions are always welcome! 🌟:
+
+
+---
+
+## 📜 License  
+
+This project is open-source and available under the **MIT License**. Feel free to use, modify, and share it!  
+
+---
+
+## 📬 Let’s Connect  
+
+Have feedback, ideas, or just want to chat? Reach out to me:  
+<div>
   <a href="mailto:onlykelvin06@gmail.com">
     <img src="https://img.shields.io/badge/Email-4285F4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
@@ -69,21 +83,7 @@ Your contributions are always welcome! and feel free to reach out to me on:<div>
   <a href="https://github.com/KelvCodes">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-</div>    
-
----
-
-## 📜 License  
-
-This project is open-source and available under the **MIT License**. Feel free to use, modify, and share it!  
-
----
-
-## 📬 Let’s Connect  
-
-Have feedback, ideas, or just want to chat? Reach out to me:  
-📧 Email: **[onlykelvin06@gmail.com ](mailto:onlykelvin06@gmail.com)**  
-💼 LinkedIn: **[Kelvin Yeboah](www.linkedin.com/in/kelvin-agyare-yeboah-6728a7301)**  
+</div>     
  
 ---
 
