@@ -25,6 +25,7 @@ function randomNumber() {
   return Math.floor(Math.random() * 3);
 }
 
+// Simulate computer's choice and update its image and text
 function computer() {
   const choices = ["rock", "paper", "scissors"];
   const ele = choices[randomNumber()];
