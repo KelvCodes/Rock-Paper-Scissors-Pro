@@ -73,6 +73,7 @@ function checkResult(computerSelection, playerSelection) {
   displayResult(message);
 }
 
+// Update the score display elements with current scores
 function updateScore() {
   playerScoreDisplay.textContent = playerScore;
   computerScoreDisplay.textContent = computerScore;
