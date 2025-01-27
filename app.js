@@ -1,5 +1,7 @@
+// Select elements to display player's choice and corresponding image
 const pChoice = document.querySelector(".p-choice");
 const pImg = pChoice.previousElementSibling;
+
 
 const cChoice = document.querySelector(".c-choice");
 const cImg = cChoice.previousElementSibling;
