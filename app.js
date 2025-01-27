@@ -52,6 +52,7 @@ weapons.forEach((weapon) => {
 function checkResult(computerSelection, playerSelection) {
   let message;
 
+   // If choices are the same, it's a draw
   if (computerSelection === playerSelection) {
     message = "It's a Draw!";
     tieScore++; // Increment tie score
