@@ -84,7 +84,7 @@ function updateScore() {
 function displayResult(message) {
   result.textContent = message;
 
-
+  // Reset message after 1.5 seconds to prompt the next move
   setTimeout(() => {
     result.textContent = "Make your next move!";
   }, 1500);
