@@ -35,6 +35,7 @@ function computer() {
   return ele;
 }
 
+// Add click event listeners to each weapon (rock, paper, scissors)
 weapons.forEach((weapon) => {
   weapon.addEventListener("click", () => {
     const playerSelection = weapon.id;
