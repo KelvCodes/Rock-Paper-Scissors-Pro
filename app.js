@@ -20,6 +20,7 @@ let playerScore = 0;
 let computerScore = 0;
 let tieScore = 0;
 
+// Generate a random number between 0 and 2 (inclusive)
 function randomNumber() {
   return Math.floor(Math.random() * 3);
 }
