@@ -2,7 +2,7 @@
 const pChoice = document.querySelector(".p-choice");
 const pImg = pChoice.previousElementSibling;
 
-
+// Select elements to display computer's choice and corresponding image
 const cChoice = document.querySelector(".c-choice");
 const cImg = cChoice.previousElementSibling;
 
