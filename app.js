@@ -80,6 +80,7 @@ function updateScore() {
   tieScoreDisplay.textContent = tieScore; // Update tie score
 }
 
+// Display the result message and reset for the next round after a brief delay
 function displayResult(message) {
   result.textContent = message;
 
