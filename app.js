@@ -84,7 +84,7 @@ function updateScore() {
 function displayResult(message) {
   result.textContent = message;
 
-  // Brief delay for the next round
+
   setTimeout(() => {
     result.textContent = "Make your next move!";
   }, 1500);
