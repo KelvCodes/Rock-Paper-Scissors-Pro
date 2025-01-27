@@ -48,6 +48,7 @@ weapons.forEach((weapon) => {
   });
 });
 
+// Compare player's choice and computer's choice to determine the result
 function checkResult(computerSelection, playerSelection) {
   let message;
 
