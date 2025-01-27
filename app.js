@@ -57,6 +57,7 @@ function checkResult(computerSelection, playerSelection) {
     message = "It's a Draw!";
     tieScore++; // Increment tie score
   } else if (
+     // Check if the computer wins
     (computerSelection === "rock" && playerSelection === "scissors") ||
     (computerSelection === "scissors" && playerSelection === "paper") ||
     (computerSelection === "paper" && playerSelection === "rock")
