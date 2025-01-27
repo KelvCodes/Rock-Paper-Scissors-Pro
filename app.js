@@ -6,6 +6,7 @@ const pImg = pChoice.previousElementSibling;
 const cChoice = document.querySelector(".c-choice");
 const cImg = cChoice.previousElementSibling;
 
+// Select all weapon buttons and the result display area
 const weapons = document.querySelectorAll(".img");
 const result = document.querySelector(".result");
 
