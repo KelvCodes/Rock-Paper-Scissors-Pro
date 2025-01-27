@@ -15,6 +15,7 @@ const playerScoreDisplay = document.getElementById("player-score");
 const computerScoreDisplay = document.getElementById("computer-score");
 const tieScoreDisplay = document.getElementById("tie-score");
 
+// Initialize scores for player, computer, and ties
 let playerScore = 0;
 let computerScore = 0;
 let tieScore = 0;
