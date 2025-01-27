@@ -10,6 +10,7 @@ const cImg = cChoice.previousElementSibling;
 const weapons = document.querySelectorAll(".img");
 const result = document.querySelector(".result");
 
+// Select score display elements
 const playerScoreDisplay = document.getElementById("player-score");
 const computerScoreDisplay = document.getElementById("computer-score");
 const tieScoreDisplay = document.getElementById("tie-score");
