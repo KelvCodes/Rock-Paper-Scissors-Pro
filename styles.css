@@ -1,11 +1,5 @@
 
 
-
-/* Hover Effect for Image */
-.img:hover{
-    background: black;
-}
-
 /* Image inside the Weapon Choice */
 .img img{
     width: 100%;
