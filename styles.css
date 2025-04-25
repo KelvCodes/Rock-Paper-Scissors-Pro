@@ -1,15 +1,6 @@
 
 
-t-transform: uppercase;
-s smaller than 1000px */
-@media screen and (max-width: 1000px){
-    .game-container{
-        width: 80%;
-    }
-}
-
-/* For screens smaller than 700px */
-@media screen and (max-width: 700px){
+t-trad (max-width: 700px){
     .game-conatiner{
         width: 90%;
     }
