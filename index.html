@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors - Voice Controlled</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title animate__animated animate__bounceIn">Rock Paper Scissors</h1>
+            <p class="subtitle">Classic game with voice control</p>
+        </header>
 
+        <div class="voice-control">
+            <button id="voice-btn" class="voice-btn">
+                <span class="mic-icon">🎤</span>
+                <span class="btn-text">Use Voice</span>
+            </button>
+            <div id="voice-status" class="voice-status">Ready for voice commands</div>
+        </div>
+
+        <div class="score-board">
+            <div class="score-card player">
+                <div class="score-label">You</div>
+                <div id="player-score" class="score-value">0</div>
+            </div>
+            <div class="score-card ties">
+                <div class="score-label">Ties</div>
+                <div id="tie-score" class="score-value">0</div>
+            </div>
+            <div class="score-card computer">
+                <div class="score-label">Computer</div>
+                <div id="computer-score" class="score-value">0</div>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div class="choice-display player-choice">
+                <div class="choice-label">Your Choice</div>
+                <img src="./images/rock.png" alt="rock" id="player-choice-img" class="choice-image">
+                <div id="player-choice-text" class="choice-name"></div>
+            </div>
+            
+            <div id="result-message" class="result-message">Make your move!</div>
+            
+            <div class="choice-display computer-choice">
+                <div class="choice-label">Computer</div>
+                <img src="./images/rock.png" alt="rock" id="computer-choice-img" class="choice-image">
+                <div id="computer-choice-text" class="choice-name"></div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <h2 class="choose-title">Choose your weapon:</h2>
+            <div class="weapons">
+                <button class="weapon-btn" id="rock" aria-label="Choose Rock">
+                    <img src="./images/rock.png" alt="rock" class="weapon-img">
+                </button>
+                <button class="weapon-btn" id="paper" aria-label="Choose Paper">
+                    <img src="./images/paper.png" alt="paper" class="weapon-img">
+                </button>
+                <button class="weapon-btn" id="scissors" aria-label="Choose Scissors">
+                    <img src="./images/scissors.png" alt="scissors" class="weapon-img">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
