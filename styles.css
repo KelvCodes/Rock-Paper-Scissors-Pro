@@ -1,11 +1,4 @@
- Area Styling */
-.game{
-    display: flex;
-    justify-content: center; /* Center the game elements horizontally */
-    align-items: center; /* Center the game elements vertically */
-    gap: 2rem; /* Add space between the game elements */
-
-    border: 5px solid white;/* White border for the game area */
+px solid white;/* White border for the game area */
     padding: 3rem 2rem; /* Padding inside the game area */
     text-align: center; /* Center text inside the game area */
 
