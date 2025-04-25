@@ -1,13 +1,6 @@
 
 
-/* Styling for the images inside the game */
-.game img{
-    width: 130px;
-    height: 120px;
-}
 
-/* Heading Styling */
-h1{
     text-align: center;
     margin: 1rem 0;
 }
