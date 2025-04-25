@@ -1,10 +1,4 @@
- Styling */
-.title{
-    background: white; /* White background for the title */
-    margin: 2rem 0;/* Margin to add space around the title */
-    padding: .5rem 0;/* Padding inside the title */
-
-    text-align: center; /* Center-align the title */
+ Styign: center; /* Center-align the title */
     letter-spacing: 2px; /* Space out the letters */
     font-size: 1.5rem; /* Increase the font size */
 }
