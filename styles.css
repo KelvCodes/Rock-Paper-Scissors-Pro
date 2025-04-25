@@ -1,9 +1,4 @@
-px solid white;/* White border for the game area */
-    padding: 3rem 2rem; /* Padding inside the game area */
-    text-align: center; /* Center text inside the game area */
 
-    height: 250px;  /* Set the height of the game area */
-}
 
 /* Styling for the images inside the game */
 .game img{
