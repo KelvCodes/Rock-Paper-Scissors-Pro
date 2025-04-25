@@ -1,17 +1,7 @@
 
 
 t-transform: uppercase;
-    letter-spacing: 2px;
-    width: 300px;
-}
-/* Padding below the heading in the game */
-.game h4{
-    margin-bottom: 1rem;
-}
-
-/* Responsiveness  */
-
-/* For screens smaller than 1000px */
+s smaller than 1000px */
 @media screen and (max-width: 1000px){
     .game-container{
         width: 80%;
