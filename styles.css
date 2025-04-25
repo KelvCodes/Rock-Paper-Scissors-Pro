@@ -1,9 +1,4 @@
- Styign: center; /* Center-align the title */
-    letter-spacing: 2px; /* Space out the letters */
-    font-size: 1.5rem; /* Increase the font size */
-}
-
-/* Game Area Styling */
+ Area Styling */
 .game{
     display: flex;
     justify-content: center; /* Center the game elements horizontally */
