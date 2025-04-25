@@ -1,11 +1,5 @@
 
-dius: 50%;
-    border: .4rem solid black;
 
-    cursor: pointer;
-
--select: none;
-}
 
 /* Hover Effect for Image */
 .img:hover{
