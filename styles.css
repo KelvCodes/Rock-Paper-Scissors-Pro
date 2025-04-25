@@ -1,16 +1,7 @@
 
 
 t-trad (max-width: 700px){
- smaller than 550px */
-@media screen and (max-width: 550px){
-    .game-container{
-        width: 95%;
-    }
 
-    .game img{
-        width: 100px;
-        height: fit-content;
-    }
     .title{
         padding: 1rem 1rem;
     }
