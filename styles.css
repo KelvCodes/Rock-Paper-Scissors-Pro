@@ -1,11 +1,4 @@
-
-
-/* Game Container */
-.game-container{
-    width: 60%; /* Set the width of the game container */
-}
-
-/* Title Styling */
+ Styling */
 .title{
     background: white; /* White background for the title */
     margin: 2rem 0;/* Margin to add space around the title */
