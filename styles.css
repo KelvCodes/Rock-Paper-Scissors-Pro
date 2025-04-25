@@ -1,8 +1,6 @@
 ground-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%); /* Gradient background for a smooth transition between two shades of blue */
 
-    display: flex;
-    justify-content: center;  /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    display: flenter content vertically */
 
     font-family: "Poppins", sans-serif;  /* Use Poppins font */
     
