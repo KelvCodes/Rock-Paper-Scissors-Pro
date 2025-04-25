@@ -2,11 +2,3 @@
 
 t-trad (max-width: 700px){
 
-    .title{
-        padding: 1rem 1rem;
-    }
-
-    .result{
-        font-size: 1rem;
-    }
-}
