@@ -1,1 +1,297 @@
+:root {
+    --primary: #4361ee;
+    --secondary: #3a0ca3;
+    --accent: #f72585;
+    --light: #f8f9fa;
+    --dark: #212529;
+    --success: #4cc9f0;
+    --danger: #ef233c;
+    --warning: #f8961e;
+    --border-radius: 12px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: var(--dark);
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    margin: 2rem auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: var(--primary);
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.voice-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.voice-btn {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition);
+    box-shadow: var(--box-shadow);
+}
+
+.voice-btn:hover {
+    background: var(--secondary);
+    transform: translateY(-2px);
+}
+
+.voice-btn.listening {
+    background: var(--accent);
+    animation: pulse 1.5s infinite;
+}
+
+.mic-icon {
+    font-size: 1.2rem;
+}
+
+.voice-status {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--dark);
+    opacity: 0.8;
+    text-align: center;
+    min-height: 20px;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.score-card {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    flex: 1;
+    transition: var(--transition);
+}
+
+.score-card:hover {
+    transform: translateY(-5px);
+}
+
+.score-label {
+    font-size: 0.9rem;
+    color: var(--dark);
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+}
+
+.score-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.player .score-value {
+    color: var(--success);
+}
+
+.computer .score-value {
+    color: var(--danger);
+}
+
+.ties .score-value {
+    color: var(--warning);
+}
+
+.game-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.choice-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.choice-label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--dark);
+    opacity: 0.8;
+}
+
+.choice-image {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+    transition: var(--transition);
+}
+
+.choice-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.result-message {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    min-width: 200px;
+    background: var(--light);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.controls {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.choose-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary);
+}
+
+.weapons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.weapon-btn {
+    width: 100px;
+    height: 100px;
+    padding: 0.8rem;
+    border-radius: 50%;
+    border: 4px solid var(--primary);
+    background: white;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.weapon-btn:hover {
+    transform: scale(1.1);
+    background: var(--light);
+}
+
+.weapon-btn:active {
+    transform: scale(0.95);
+}
+
+.weapon-img {
+    width: 100%;
+    pointer-events: none;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+    }
+    
+    .title {
+        font-size: 2rem;
+    }
+    
+    .game-area {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .result-message {
+        order: -1;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    
+    .weapons {
+        gap: 1rem;
+    }
+    
+    .weapon-btn {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    .title {
+        font-size: 1.8rem;
+    }
+    
+    .score-board {
+        flex-direction: column;
+    }
+    
+    .choice-image {
+        width: 80px;
+        height: 80px;
+    }
+}
