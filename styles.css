@@ -1,12 +1,6 @@
 
 /
-.choices{
-    display: flex;
-    justify-content: center;
-}
 
-/* Image (Weapon) Styling */
-.img{
     width: 100px;
     height: 100px;
 
