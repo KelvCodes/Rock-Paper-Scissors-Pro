@@ -4,13 +4,7 @@ dius: 50%;
 
     cursor: pointer;
 
-    transition: background .3s ease-in-out;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    user-select: none;
+-select: none;
 }
 
 /* Hover Effect for Image */
