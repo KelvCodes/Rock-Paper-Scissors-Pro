@@ -1,10 +1,4 @@
- #333; /*Dark color for text*/
-}
 
-.score h3 {
-    margin: 0; /* Remove margin for cleaner look */
-    text-align: center; /* Center the text within the score section */
-}
 
 /* Game Container */
 .game-container{
