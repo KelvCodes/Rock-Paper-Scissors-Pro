@@ -2,11 +2,7 @@
 
 /* Scoreboard Container */
 .score-board {
-    display: flex;
-    justify-content: center;  /* Center the score sections */
-    align-items: center; 
-    gap: 2rem;/* Add space between score sections */
-    margin: 1rem 0;/* Add margin for spacing */
+ 1rem 0;/* Add margin for spacing */
     padding: 0.5rem;
     background-color: #ffffff; /*White background*/
     border-radius: 8px;  /* Rounded corners */
